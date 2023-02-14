@@ -2,7 +2,7 @@ package ch02.lecture.p01type;
 
 public class C10String {
 	public static void main(String[] args) {
-		//Stirng (참조타입)
+		//String (참조타입)
 		//문자열 저장
 		
 		String s1;

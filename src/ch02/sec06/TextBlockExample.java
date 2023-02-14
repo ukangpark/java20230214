@@ -9,11 +9,11 @@ public class TextBlockExample {
 		"}";
 		
 		String str2 = """
-			{
-				"di":"winter",
-				"name":"눈송이"
-			}
-			""";
+		{
+			"di":"winter",
+			"name":"눈송이"
+		}
+		""";
 		
 		System.out.println(str1);
 		System.out.println("------------------");
