@@ -1,4 +1,4 @@
-package ch02.lecture.p01type;
+package ch02.lecture.p02type;
 
 public class C08Double {
 	public static void main(String[] args) {
