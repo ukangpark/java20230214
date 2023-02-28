@@ -1,4 +1,4 @@
-package ch06.exercise.exam16;
+package ch06.excercise.exam16;
 
 public class Printer {
 	void println(int param) {
