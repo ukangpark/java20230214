@@ -17,6 +17,7 @@ public class MyClass03 {
 	
 	//메소드 통해서 필드에 접근하도록
 	//읽거나 변경하는 용도로 메소드가 작성됨
+	
 	//변경용도 (set필드이름) = setterMethod
 	public void setName(String name) {
 		//변경
