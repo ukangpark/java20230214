@@ -7,6 +7,11 @@ public class Member {
 	private int age;
 	private boolean married;
 	
+	public Member(String id, String pw) {
+		this.id = id;
+		this.pw = pw;
+	}
+	
 	//setter 만들기
 	public void setName (String name) {this.name = name;}
 	public void setId (String id) {this.id = id;}
