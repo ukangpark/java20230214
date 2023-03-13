@@ -16,7 +16,7 @@ public class C04LocalClass {
 	}
 	
 	void method2() {
-		LocalClass1 o1 = new LocalClass1();//사용불가
+//		LocalClass1 o1 = new LocalClass1();//사용불가
 	}
 
 }
