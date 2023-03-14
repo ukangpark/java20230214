@@ -17,8 +17,6 @@ public class Course {
 	
 	//직장인 및 일반인만 등록 가능
 	public static void registerCourse3(Applicant<? super Worker> applicant) {
-		
-		applicant
 		System.out.println(applicant.kind.getClass().getSimpleName() + "이(가) Course3을 등록함");
 	}
 

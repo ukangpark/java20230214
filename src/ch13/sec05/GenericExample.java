@@ -11,8 +11,8 @@ public class GenericExample {
 		System.out.println();
 		
 		//학생만 신청가능
-		Course.registerCourse2(new Applicant<Person>(new Person()));//안됨
-		Course.registerCourse2(new Applicant<Worker>(new Worker()));//안됨
+//		Course.registerCourse2(new Applicant<Person>(new Person()));//안됨
+//		Course.registerCourse2(new Applicant<Worker>(new Worker()));//안됨
 		Course.registerCourse2(new Applicant<Student>(new Student()));
 		Course.registerCourse2(new Applicant<HighStudent>(new HighStudent()));
 		Course.registerCourse2(new Applicant<MiddleStudent>(new MiddleStudent()));
@@ -21,9 +21,9 @@ public class GenericExample {
 		//직장인 및 일반인만 신청가능
 		Course.registerCourse3(new Applicant<Person>(new Person()));
 		Course.registerCourse3(new Applicant<Worker>(new Worker()));
-		Course.registerCourse3(new Applicant<Student>(new Student()));//안됨
-		Course.registerCourse3(new Applicant<HighStudent>(new HighStudent()));//안됨
-		Course.registerCourse3(new Applicant<MiddleStudent>(new MiddleStudent()));//안됨
+//		Course.registerCourse3(new Applicant<Student>(new Student()));//안됨
+//		Course.registerCourse3(new Applicant<HighStudent>(new HighStudent()));//안됨
+//		Course.registerCourse3(new Applicant<MiddleStudent>(new MiddleStudent()));//안됨
 		System.out.println();
 	}
 

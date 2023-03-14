@@ -10,6 +10,8 @@ public class Q09 {
 		
 		int students = 0;
 		int[] scores = null;
+
+		
 		int sum = 0;
 		int top = 0;
 

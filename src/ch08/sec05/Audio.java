@@ -1,4 +1,4 @@
-package ch08.sec04;
+package ch08.sec05;
 
 public class Audio implements RemoteControl {
 	//필드
@@ -14,6 +14,11 @@ public class Audio implements RemoteControl {
 	}
 	
 	//setVolume() 추상 메소드 오버라이딩
+	@Override
+	public void setVolume(int volume) {
+		System.out.println("Audio를 끕니다.");
+	}
+	
 	
 	
 
