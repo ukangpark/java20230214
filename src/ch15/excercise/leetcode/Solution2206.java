@@ -18,13 +18,17 @@ public class Solution2206 {
 				map.put(n, 1);
 			}
 		}
-		//value가 짝수면 true
-		for(Map.Entry<Integer, Integer> entry : map.entrySet()) {
-			int v = entry.getValue();//getValue메소드는 Entry의 메소드 (entry는 타입이 Entry타입이니까)
-			if (v % 2 == 1) {
-				return false;
-			}
-		}
-		return true;
+//		//value가 짝수면 true
+//		for(Map.Entry<Integer, Integer> entry : map.entrySet()) {
+//			int v = entry.getValue();//getValue메소드는 Entry의 메소드 (entry는 타입이 Entry타입이니까)
+//			if (v % 2 == 1) {
+//				return false;
+//			}
+//		}
+//		return true;
+		
+		return map.values()//for문으로 각 key들의 value값을 생성하고, 그value를 사용할건데,
+				.stream()//values를 스트림으로 만들고,
+				.allMatch(e -> (e % 2) == 0);//values의 값이 모두 짝수인가 여부를 return 
 	}
 }
