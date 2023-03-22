@@ -5,7 +5,7 @@ import java.util.*;
 
 public class C04InputStream {
 	public static void main(String[] args) {
-		String name = "output/output6.txt";
+		String name = "output/output6.txt"; //12바이트
 		
 		try (var is = new FileInputStream(name)) {
 			

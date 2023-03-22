@@ -14,14 +14,12 @@ public class C05InputStream {
 			var is = new FileInputStream(src);
 				var os = new FileOutputStream(des);) {
 			
-//			int data = 0;
-//			
-//			while ((data = is.read())!= -1) {//read로 파일을 읽어와서!! data에 할당하고
-//				os.write(data);//data를 write해서 새로운 파일로 출력해!!!
-//			}
+			int data = 0;
 			
-			int data = is.read();
-			os.write(data);
+			while ((data = is.read())!= -1) {//read로 파일을 읽어와서!! data에 할당하고
+				os.write(data);//data를 write해서 새로운 파일로 출력해!!!
+			}
+			
 			
 		}catch (Exception e) {
 			e.printStackTrace();
