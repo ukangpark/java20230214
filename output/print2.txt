@@ -1,0 +1,5 @@
+9999
+9.99999
+false
+hello world
+더 글로리
